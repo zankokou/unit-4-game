@@ -1,0 +1,105 @@
+<DOCTYPE <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Crystal Game</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+            <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    
+        </head>
+        <body>
+            <div class ="jumbotron" id = "topBox">
+                <h1>PokeBall Collector!</h1></div>
+
+            <div class ="jumbotron" id = "instructionsBox">
+                <p> You will be given a random number at the start of the game.
+                    <br>
+                    <br>
+                    There are four PokeBalls below.  By clicking on a PokeBall you will add 
+                    a specific amount of points to your total score.
+                    <br>
+                    <br>
+                    You win the game by matching your total score to the random number. 
+                    You lose the game if your total score goes above the random number.
+                    <br>
+                    <br>
+                    The value of each PokeBall is hidden from you until you click on it.
+                    <br>
+                    <br>
+                    Each time when the game starts, the game will change the value of 
+                    each PokeBall.
+                </p>    
+            </div>
+
+            <div class ="jumbotron" id = "counterBox">
+                <div class = "row">
+                    <div class = "col-sm-3"></div>
+
+                    <div class = "col-sm-3">
+                            <h4>Match this number!</h4>
+                            <h1 id= "score"></h1>
+                    </div>
+                    <div class = "col-sm-3 " counter ="score">
+                        <h2 id = "wins"> Wins: 0</h2>
+                        <h2 id = "losses"> Losses: 0</h2>
+                    </div>
+
+
+                </div>
+                
+            </div>
+
+
+            <div class ="jumbotron crystalBox">
+                <button id="crystal-one" class="btn crystal">
+                    <img class="ball" src = "assets/images/redBall.png"/>
+                </button>
+
+                <button id="crystal-two" class="btn crystal">
+                    <img class="ball" src = "assets/images/greatBall.png"/>
+                </button>
+
+                <button id="crystal-three" class="btn crystal">
+                    <img class="ball" src = "assets/images/ultraBall.png"/>
+                </button>
+                <button id="crystal-four" class="btn crystal">
+                    <img class="ball" src = "assets/images/masterBall.png"/>
+                </button>
+
+            </div>
+
+            <div class ="jumbotron">
+                <h2 id = "scoreBox"></h2>
+            </div>
+
+        
+
+
+        
+        <script>
+        //Top Box Header
+        //Second Box instructions
+        //Third Box 
+            // 2 columns 
+            // column 1 = random Number 19-120
+            // column 2 = Win/Loss Counter
+        //4th box
+            // 4 columns
+            // each column has a crystal
+            // each crystal random number 1-12
+        // 5th box shows "total score"
+        // 6th box updates total score
+    
+        
+        
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script rel="script" type-"text/javascript" src="assets/javascript/game.js"></script>
+        
+        </body>
+    
+    </html>
