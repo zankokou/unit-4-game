@@ -1,2 +1,4 @@
 # unit-4-game
-crystal game
+Click on the Pokeballs to match the Number!
+Link to Game:
+https://zankokou.github.io/unit-4-game/
